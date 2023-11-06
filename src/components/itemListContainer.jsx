@@ -1,3 +1,5 @@
-export const ItemListContainer = (props) => {
-    return <h1>{props.greeting}</h1> 
-}
+import React from 'react';
+
+export const ItemListContainer = ({ greeting }) => {
+    return <h1>{greeting}</h1>;
+};
